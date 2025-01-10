@@ -1,0 +1,21 @@
+.input{
+    width: 100%;
+}
+.input label{
+	color: #ffffff;
+	display: block;
+	margin-bottom: 8px;
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin-top: 1rem;
+}
+ 
+.input input{
+	width: 100%;
+	background-color: transparent;
+	border: 1px solid #2271D1;
+    border-radius: 15px;
+    color: #ffffff;
+	padding: 1rem 0.5rem;
+	font-size: 0.8rem;
+}

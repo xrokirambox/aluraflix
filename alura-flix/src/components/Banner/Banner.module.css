@@ -1,0 +1,35 @@
+.banner{
+    padding: 3rem 0;
+}
+.itemBanner, .itemBannerImg{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    flex: 1;
+}
+.itemBannerImg{
+    min-height: 50vh;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+.title{
+    font-family: "Catamaran", sans-serif;
+    color: #ffffff;
+    margin: 1rem 0;
+}
+.itemBanner p{
+    color: #ffffff;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
+@media (min-width: 768px){
+    .banner{
+        padding: 0;
+    }
+    .itemBanner, .itemBannerImg{
+        min-height: 90vh;
+    }
+}

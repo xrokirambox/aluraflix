@@ -1,0 +1,19 @@
+.sectionNoFound{
+    margin: 2rem 0;
+    border: 2px solid #2271D1;
+    border-radius: 15px;
+    background-color: #2271D120;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 250px;
+}
+.sectionNoFound h3{
+    color: #ffffff;
+}
+.sectionNoFound i{
+    font-size: 3rem;
+    color: #2271D1;
+}

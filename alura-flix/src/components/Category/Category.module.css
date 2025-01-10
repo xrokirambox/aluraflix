@@ -1,0 +1,33 @@
+.section{
+    display: flex;
+    flex-direction: column;
+}
+
+.sectionCards{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 2rem 0;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+
+.sectionCards::-webkit-scrollbar {
+    height: 10px;
+}
+
+.sectionCards::-webkit-scrollbar-track {
+    background: #2271D120; 
+}
+
+.sectionCards::-webkit-scrollbar-thumb {
+    background: #2271D1;
+    border-radius: 15px; 
+}
+
+@media (min-width: 960px){
+    .sectionCards::-webkit-scrollbar-track {
+        background: transparent; 
+    }
+}

@@ -1,0 +1,14 @@
+.page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: calc(90vh - 145px - 85px);
+}
+
+.pageTitle{
+   color: #ffffff;
+   text-transform: uppercase;
+   text-align: center;
+   font-weight: 600;
+}

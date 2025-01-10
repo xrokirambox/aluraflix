@@ -1,0 +1,26 @@
+.form{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.successMessage{
+    width: 80%;
+    background-color: #FFBA05;
+    padding: 0.5rem 0;
+    font-size: 0.8rem;
+    color: #ffffff;
+    text-align: center;
+}
+
+.formTitle{
+    font-weight: 900;
+    color: #2271D1;
+    text-transform: uppercase;
+    margin-top: 2rem;
+}
+
+.buttons Button{
+    color: #ffffff;
+}

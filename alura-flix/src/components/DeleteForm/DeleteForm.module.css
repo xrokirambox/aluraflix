@@ -1,0 +1,22 @@
+.form{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.deleteMessage{
+    margin-top: 2rem;
+    text-align: center;
+    color: #ffffff;
+}
+.deleteMessage span{
+    color: #6BD1FF;
+}
+.buttons{
+    margin-top: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px
+}

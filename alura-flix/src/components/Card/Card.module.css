@@ -1,0 +1,33 @@
+.card{
+    min-width: 100%;
+    border-radius: 15px;
+    background-color: var(--border-color);
+    border-width: 0px 3px 3px 3px;
+    border-style: solid;
+    border-color: var(--border-color);
+}
+.cardBody{
+    background-color: black;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+    display: flex;
+    justify-content: space-between;
+}
+.cardBody i{
+    color: #ffffff;
+    margin: 0 0.5rem;
+    cursor: pointer;
+}
+
+@media (min-width: 720px){
+    .card{
+        min-width: calc(50% - 20px);
+    }
+}
+
+@media (min-width: 960px){
+    .card{
+        min-width: 300px;
+        max-width: 18rem;
+    }
+}

@@ -1,0 +1,17 @@
+.page{
+    min-height: calc(90vh - 145px - 85px);
+}
+
+.pageTitle{
+   color: #ffffff;
+   text-transform: uppercase;
+   text-align: center;
+   font-weight: 600;
+}
+
+.pageParagraph{
+    color:#ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}

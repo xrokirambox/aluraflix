@@ -1,0 +1,25 @@
+.page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: calc(100vh - 145px - 85px);
+}
+
+.page h1{
+   color: #2271D1;
+   text-align: center;
+   font-weight: 600;
+}
+.page span{
+    color: #ffffff;
+    font-weight: 200;
+ }
+.iframe{
+    width: 100%;
+    
+}
+.iframe iframe{
+    width: 100%;
+    min-height: 60vh;
+}

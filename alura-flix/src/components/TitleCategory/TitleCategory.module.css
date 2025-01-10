@@ -1,0 +1,14 @@
+.titleCategory{
+    padding: 1rem 3rem;
+    background-color: var(--background-color, #007bff);
+    min-width: 18rem;
+    max-width: 20rem;
+}
+.titleCategory h2{
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    color: #ffffff;
+    margin: 0;
+}
